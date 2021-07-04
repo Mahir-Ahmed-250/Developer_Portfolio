@@ -1,10 +1,10 @@
-body{font-family: 'Teko', sans-serif;
-background-color: rgb(251, 255, 0);}
-h1{font-size: 80px;}
+body{font-family: 'Teko', sans-serif; margin: 0;
+background-color: rgb(241, 241, 203);}
+h1{font-size: 80px; margin: 5px;}
 .Orange{color: rgb(255, 0, 0);}
 p{font-size: 20px;
 text-align: justify;
-color: rgb(0, 247, 255);}
+color: rgb(0, 0, 0);}
 h2{font-size: 40px;
 color: rgb(17, 0, 255) ;}
 section{display: flex;}
@@ -13,8 +13,17 @@ height: 1000px;}
 .Plannet{margin-left: 10%;}
 .Plannet{margin-top: 300px;}
 .Plannet img{width: 500%;
-height: 50%;}
+height: 50%;
+margin-top: -250px;}
 .half{width: 50%;
-padding: 5%;}
-a{padding: 150px;
-font-size: 50px;}
+padding: 0 0 0 6%;}
+a{font-size: 40px;
+text-decoration: none;
+background-image: linear-gradient(orange, tomato);
+padding: 5px 20px ;
+border-radius: 10px;
+font-weight: 700;
+color: white;}
+.TOP{background-image: url(images/top-banner.png);
+    background-size: 100%;
+    background-repeat: no-repeat;}
